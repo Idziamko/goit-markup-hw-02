@@ -1,0 +1,183 @@
+/*#region Global */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* button */
+button {
+    cursor: pointer;
+}
+
+/* Lists */
+ul { list-style: none; }
+
+/* Links */
+a { 
+    color: inherit; 
+    text-decoration: none; }
+a:hover, 
+a:active { 
+    color: #404BBF; }
+
+/*#endregion*/
+
+/*#region Headings */
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143; /* 60/56 */
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/*#endregion */
+
+/*#region Header */
+
+
+/*#region Header: Logo */
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667; /* ≈21px */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+/* No hover/active color on logo */
+.header-logo:hover,
+.header-logo:active {
+    color: #2e2f42;
+}
+/* Accent part of the logo */
+.logo-accent {
+    color: #4D5AE5; 
+}
+
+/*#endregion Header: Logo */
+
+/*#region Header: Navigation */
+.menu {
+    color: #2e2f42;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*#endregion */
+
+/*#region Header: Contacts */
+.contacts {
+    font-style: normal;
+}
+/*#endregion */
+/*#endregion Header */
+
+/*#region Hero */
+
+/*#region Hero: Base */
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero .hero-title {
+    color: #ffffff;
+}
+
+/*#endregion */
+
+/*#region Hero: Button */
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/*#endregion */
+
+/*#endregion */
+
+/*#region Team */
+.team {
+    background-color: #f4f4fd;
+}
+
+.team li {
+    background-color: #ffffff;
+}
+
+/*#endregion */
+
+/*#region Footer */
+
+/*#region Footer: Base */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer p {
+    color: #f4f4fd;
+    /* footer paragraph color */
+}
+/*#endregion */
+
+/*#region Footer: Logo */
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    /* ≈21px */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;;
+}
+
+/* No hover/active color on logo */
+.footer-logo:hover,
+.footer-logo:active {
+    color: #f4f4fd;
+}
+
+/* Accent part of the logo */
+.logo-accent {
+    color: #4D5AE5;
+}
+
+/*#endregion Header: Logo */
+
+/*#endregion Header */
